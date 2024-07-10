@@ -26,6 +26,6 @@ object StringFormatter {
         }
     }
     
-    formattedNames.foreach(println)
+    println(s"${formattedNames}")
   }
 }
